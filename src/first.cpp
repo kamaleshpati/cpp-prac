@@ -220,7 +220,7 @@ int main() {
 
 
     std::fstream file; 
-    file.open("cout.txt", std::ios::out); 
+    file.open("res/cout.txt", std::ios::out); 
     std::string line; 
     std::streambuf* stream_buffer_cout = std::cout.rdbuf(); 
     std::streambuf* stream_buffer_cin = std::cin.rdbuf();
